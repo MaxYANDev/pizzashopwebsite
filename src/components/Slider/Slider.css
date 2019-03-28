@@ -1,0 +1,76 @@
+.container {
+  background-color: #1e1e1e;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  background-image: url('../../assets/Pizza-2-Recovered.png');
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+.sliderContainer {
+  margin: auto 14rem;
+  color: #fdbc2c;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 1rem;
+  font-family: 'Abril Fatface', cursive;
+}
+.title {
+  font-size: 3rem;
+  letter-spacing: 0.2rem;
+  font-family: 'Fredericka the Great', cursive;
+  color:#fff;
+}
+.paragraph {
+  font-size: 1.8rem;
+}
+.orderButton > button {
+  margin-top: 2rem;
+  color: #fdbc2c;
+  border: 1px solid  #fdbc2c;
+  padding: 1rem 2rem;
+  background: transparent;
+  outline: none;
+  cursor: pointer;
+}
+.menubar {
+  display: flex;
+  justify-content: space-between;
+  background: #1e1e1e;
+  height: 4rem;
+}
+.menu {
+  background-image: url(../../assets/Menu.png);
+  width: 4rem;
+  height: 4rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.logo {
+  padding-top: 10px;
+  background: transparent;
+  border: none;
+  width: 8rem;
+  height: 4rem;
+  outline: none;
+  cursor: pointer;
+}
+.logoImage {
+  height: 2rem;
+}
+.cart {
+  width: 4rem;
+  height: 4rem;
+  background: transparent;
+  border: none;
+  background-image: url('../../assets/Cart.png');
+  background-size: cover;
+  outline: none;
+  cursor: pointer;
+}

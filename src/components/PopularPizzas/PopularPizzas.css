@@ -1,0 +1,75 @@
+.PopularPizzasContainer {
+  margin-top: 6rem;
+  background-image: url('../../assets/Base.png');
+  background-size: cover;
+  height: 20rem;
+  display: grid;
+  grid-template-columns: 1fr auto auto 1fr;
+  grid-gap: 1.5rem;
+  align-items: center;
+  color: #ffffff;
+}
+.previousButton {
+  margin-left: 10rem;
+  background-image: url('../../assets/Previous.png');
+  background-size: cover;
+  height: 3rem;
+  width: 3rem;
+}
+.previousButton > button {
+  height: 3rem;
+  width: 3rem;
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.pupularPizzasInfoContainer {
+  display: grid;
+  grid-template-rows: auto auto 1fr auto;
+  grid-gap: 1rem;
+  width: 20rem;
+}
+.popularPizzasTitle {
+  font-size: 2rem;
+}
+.polularPizzasPrice {
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 1.8rem;
+  color: #000;
+}
+.popularPizzasInfo > p {
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+}
+.popularPizzasInfoButton {
+  border: 1px solid #fdbc2c;
+  background-color: #fdbc2c;
+  height: 2rem;
+  width: 8rem;
+  outline: none;
+  cursor: pointer;
+}
+.popularPizzasImage {
+  position: relative;
+  top: -1.5rem;
+  height: 23rem;
+  width: 23rem;
+  background: black;
+  border-radius: 50%;
+}
+.nextButton {
+  margin-left: 3rem;
+  background-image: url('../../assets/Next.png');
+  background-size: cover;
+  height: 3rem;
+  width: 3rem;
+}
+.nextButton > button {
+  height: 3rem;
+  width: 3rem;
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

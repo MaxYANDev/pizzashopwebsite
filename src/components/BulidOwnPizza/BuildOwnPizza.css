@@ -1,0 +1,11 @@
+.buildOwnpizaaContainer {
+  text-align: center;
+  margin-top: 4rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+.buildOwnpizaaContainer > h2 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 1.5rem;
+  color: white;
+}
