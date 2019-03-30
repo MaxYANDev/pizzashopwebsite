@@ -11,7 +11,7 @@ const PopularPizzas = () => (
         <h2>Peri-Peri</h2>
       </div>
       <div className = 'polularPizzasPrice'>
-        <p>$18 - $37</p>
+        <p>$18 - $38</p>
       </div>
       <div className = 'popularPizzasInfo'>
         <p>Marinated Chicken Breast Fillets, Shallots, Roasted Capsicum, Caramelised Onions & Bocconcini on a Tomato base, topped with Peri-Peri sauce</p>
