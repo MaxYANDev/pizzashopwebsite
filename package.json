@@ -6,7 +6,7 @@
   "homepage": "https://maxyandev.github.io/pizzashopwebsite/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server  --port $PORT --host 0.0.0.0",
+    "start": "webpack-dev-server  --port $PORT --host 0.0.0.0 --disable-host-check",
     "build": "webpack",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
